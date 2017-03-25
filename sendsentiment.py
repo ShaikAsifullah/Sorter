@@ -193,10 +193,10 @@ class TweetData:
 
 
 #Credentials for API DO NOT SHARE or MISUSE
-access_token = "3263176286-pI7DTxVl4Ky7W36f121Ae73Kz6RwEoLpVWCy0de"
-access_token_secret = "aevy3yNBEWgFylQs6q1xTamlyfVslfVvArrERYQkZ4L77"
-consumer_key = "M3EVPa1UTbGim1tLbzPAvDg3w"
-consumer_secret = "ITq5gqAybCTWFy3OK2FEKjGHs9gPcz3tSj8RV3mSvymHsH7oVr"
+access_token = "vffvv63176286-pI7DTxVl4Ky7W36f121Ae73Kz6RwEoLggpVWCy0de"
+access_token_secret = "aesfvy3vffyNBEWgFylQs6q1xTamlyfgVslfVvArrERYQkZ4L77"
+consumer_key = "M3EVPa1UTvfvfbGim1tLbzPAvDg3w"
+consumer_secret = "ITq5gqAybvfvsdcscsaCTWFy3OK2FEKjGHs9gPchjjz3tSj8RV3mSvymHsH7oVr"
 
 
 ##SETS
@@ -246,7 +246,7 @@ class MyListener(StreamListener):
                 t = TweetData(tweets_data)
                 t.getWork()
                 if(i_n > 3):
-                    t.send_email(["s.asifullah7@gmail.com","shaik.asifullah@calforfinance.com"],"Current Sentiment fot keywords",FINAL_SEND)
+                    t.send_email(["s.asifullah7@gmail.com"],"Current Sentiment fot keywords",FINAL_SEND)
             quit()
         return True
 
